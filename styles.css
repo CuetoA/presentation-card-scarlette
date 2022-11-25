@@ -67,7 +67,8 @@ html{
 }
 
 .information ul> *{
-    margin-top: 14px;
+    margin-top: 0px;
+    list-style: none;
 }
 .information ul> * > *{
     color: black;
