@@ -9,40 +9,31 @@
     align-items: center;
     justify-content: center;
 }
-.card-container{
+
+.logo-img-container{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
     background-color: yellow;
-    border: 2px solid black;
-    border-radius: 25px;
-    width: 300px;
-    height: 500px;
-    overflow: hidden;
-    display: grid;
-    /* align-items: center;
-    justify-items: center; */
 }
 
-.cover-image-container{
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    /* top: 0 !important; */
-}
-#cover-image{
-    width: 100%;
-    height: auto;
-    margin-top: -80px;
-    z-index: 1;
+.data-container{
+    height: 300px;
+    width: 330px;
+    position: relative;
+    margin-top: 40%;
+
+    background-color: blueviolet;
 }
 
-
-.profile-image-container{
+.share-container{
     height: 100px;
     width: 100px;
-    overflow: hidden;
-    border: 2px solid black;
-    border-radius: 50%;
-}
+    bottom: 20%;
+    right: -100px;
 
-#profile-image{
-    width: 100%;
+    background-color: white;
 }
