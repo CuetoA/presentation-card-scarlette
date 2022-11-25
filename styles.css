@@ -76,6 +76,10 @@ html{
 .location{
     text-align: right;
 }
+.location a{
+    color: black;
+    text-decoration: none;
+}
 
 
 .footer-container{
