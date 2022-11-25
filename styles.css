@@ -108,7 +108,7 @@ html{
     align-items: center;
     justify-content: center;
 
-    background-color: yellow;
+    background-color: rgba(255,230,0,255);
 }
 #copy-button{
     /* width: 100px; */
