@@ -38,9 +38,32 @@
 .card{
     height: 100%;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     background-color: pink;
 }
+.titles{
+    text-align: center;
+    background-color: aqua;
+}
+.titles h1{
+    margin: 0px;
+    color: red;
+}
+.titles p{
+    margin: 0px;
+    color: black;
+}
+
+.information{
+    background-color: green;
+}
+.location{
+    text-align: right;
+}
+
 
 .footer-container{
     height: 100px;
