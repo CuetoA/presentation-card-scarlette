@@ -43,16 +43,27 @@
         <div class="footer-container">
             <div class="share-container">
                 
-                <div class="button-container">
+                <button class="button-container" onclick="copy_2_clipboard()">
                     <!-- <img id="copy-button" src="https://w7.pngwing.com/pngs/980/625/png-transparent-computer-icons-cut-copy-and-paste-copying-symbol-emoticon-research-miscellaneous-text-smiley-thumbnail.png" alt="copy and share button"> -->
                     <i id="copy-button" class="fa fa-copy"></i>
                     <p>Copy and share</p>
-                </div>
+                </button>
             </div>
         </div>
 
     </div>
 
+    <script>
+
+        const copy_2_clipboard = async (text) => {
+            try {
+            await navigator.clipboard.writeText('http://bit.ly/3Uc6avT');
+            alert('Content copied');
+            } catch (err) {
+            console.error('Failed to copy: ', err);
+            }
+        }
+    </script>
 
 </body>
 </html>
